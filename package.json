@@ -1,0 +1,21 @@
+{
+  "name": "ema-john-simple-server-0.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "mongodb": "^4.5.0",
+    "rexpress": "^0.2.0",
+    "rxpress": "^0.3.0"
+  }
+}
